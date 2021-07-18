@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>M Grand reservation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <style>
+             body{
+                 background-color:beige;
+             }
+       div {
+           text-align: center;
+           font-family:cursive;
+           font-size: xx-large;
+       }
+.button {
+  background-color: #4CAF90;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  align-items: center;
+  
+  
+}
+</style>
+    </head>
+    <body>
+        <div>Welcome to M grand restaurant </div>
+            <input type="button" class="button" value="view menu ">
+        <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "62ee8093-5f46-43b7-bc33-fcfe5d2dd5f6", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "e4b1c40a-a2ba-4b03-957b-ec1f0610bb5e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+    
+</html>
